@@ -8,63 +8,62 @@
    "id": "sawblade.custom_song_folder",
    "links": {
       "source": "https://github.com/SawBlade21/custom-song-folder"
-    },
-    "name": "Custom Song Folder",
-    "version": "v1.1.1",
-    "developer": "Sawblade",
-    "description": "Save songs and SFX to a custom directory",
-    "early-load": true,
-    "settings": {
-       "custom-folder": {
-       "type": "folder",
-       "name": "Custom Song Directory",
-       "description": "The <cy>directory</c> in which custom songs and SFX will be stored.",
-       "default": "{gd_save_dir}"
-       },
-       "separate-sfx-folder": {
-          "type": "bool",
-          "name": "Separate SFX Folder",
-          "description": "Use a <cy>different directory</c> for SFX instead of the song directory.",
-          "default": false
-       },
-       "custom-sfx-folder": {
-          "type": "folder",
-          "name": "Custom SFX Directory",
-          "description": "The <cy>directory</c> in which SFX will be stored. Only active when <cg>Separate SFX Folder</c> is enabled.",
-          "default": "{gd_save_dir}",
-          "enable-if": "separate-sfx-folder"
-       },
-       "folder-info": {
-          "type": "custom:folder-info",
-          "name": "Folder Info",
-          "description": "Files currently in your custom song directory."
-       },
-       "open-folder-button": {
-          "type": "custom:open-folder",
-          "name": "Open Song Folder",
-          "description": "Opens your <cy>custom song directory</c> in the file explorer."
-       },
-       "migrate-folder": {
-          "type": "folder",
-          "name": "Transfer From Directory",
-          "description": "The <cj>directory</c> from which songs and SFX will be transferred to your <cy>custom save directory</c>.",
-          "default": "{gd_save_dir}"
-        },
-        "overwrite": {
-           "type": "bool",
-           "name": "Overwrite Files",
-           "description": "If enabled, transferring files will <cr>overwrite</c> those in the <cy>destination folder</c> with the same name. Otherwise, files with the same name will not be transferred.",
-           "default": false
-        },
-        "button-setting": {
-            "type": "custom:button",
-            "name": "Transfer Songs",
-            "description": "Pressing the <cg>Transfer</c> button will move all songs from the <cj>'transfer from' directory</c> to your <cy>custom save directory.</c>"
-        }
+   },
+   "name": "Custom Song Folder",
+   "version": "v1.1.1",
+   "developer": "Sawblade",
+   "description": "Save songs and SFX to a custom directory",
+   "early-load": true,
+   "settings": {
+      "custom-folder": {
+         "type": "folder",
+         "name": "Custom Song Directory",
+         "description": "The <cy>directory</c> in which custom songs and SFX will be stored.",
+         "default": "{gd_save_dir}"
       },
-      "tags": [
-        "enhancement",
-        "music",
-        "utility",
-        "customization"
-      ]
+      "separate-sfx-folder": {
+         "type": "bool",
+         "name": "Separate SFX Folder",
+         "description": "Use a <cy>different directory</c> for SFX instead of the song directory.",
+         "default": false
+      },
+      "custom-sfx-folder": {
+         "type": "folder",
+         "name": "Custom SFX Directory",
+         "description": "The <cy>directory</c> in which SFX will be stored. Only active when <cg>Separate SFX Folder</c> is enabled.",
+         "default": "{gd_save_dir}",
+         "enable-if": "separate-sfx-folder"
+      },
+      "folder-info": {
+         "type": "custom:folder-info",
+         "name": "Folder Info",
+         "description": "Files currently in your custom song directory."
+      },
+      "open-folder-button": {
+         "type": "custom:open-folder",
+         "name": "Open Song Folder",
+         "description": "Opens your <cy>custom song directory</c> in the file explorer."
+      },
+      "migrate-folder": {
+         "type": "folder",
+         "name": "Transfer From Directory",
+         "description": "The <cj>directory</c> from which songs and SFX will be transferred to your <cy>custom save directory</c>.",
+         "default": "{gd_save_dir}"
+      },
+      "overwrite": {
+         "type": "bool",
+         "name": "Overwrite Files",
+         "description": "If enabled, transferring files will <cr>overwrite</c> those in the <cy>destination folder</c> with the same name. Otherwise, files with the same name will not be transferred.",
+         "default": false
+      },
+      "button-setting": {
+          "type": "custom:button",
+          "name": "Transfer Songs",
+          "description": "Pressing the <cg>Transfer</c> button will move all songs from the <cj>'transfer from' directory</c> to your <cy>custom save directory.</c>"
+      }
+    },
+    "tags": [
+      "enhancement",
+      "utility",
+      "customization"
+    ]
