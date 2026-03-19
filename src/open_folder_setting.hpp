@@ -6,9 +6,7 @@
 
 using namespace geode::prelude;
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Open Folder (custom:open-folder) — opens the custom song directory
-// ─────────────────────────────────────────────────────────────────────────────
 
 class OpenFolderSettingV3 : public SettingV3 {
 public:

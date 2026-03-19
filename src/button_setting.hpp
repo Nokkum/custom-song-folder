@@ -4,9 +4,7 @@
 #include "open_folder_setting.hpp"
 #include "transfer_setting.hpp"
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Register all custom setting types
-// ─────────────────────────────────────────────────────────────────────────────
 
 $execute {
     (void)Mod::get()->registerCustomSettingType("button",      &MyButtonSettingV3::parse);

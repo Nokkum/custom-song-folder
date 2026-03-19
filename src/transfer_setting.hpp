@@ -8,9 +8,7 @@
 
 using namespace geode::prelude;
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Transfer Button (custom:button) — moves files with live progress display
-// ─────────────────────────────────────────────────────────────────────────────
 
 class MyButtonSettingV3 : public SettingV3 {
 public:

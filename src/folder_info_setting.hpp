@@ -5,9 +5,7 @@
 
 using namespace geode::prelude;
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Folder Info (custom:folder-info) — read-only display of file counts
-// ─────────────────────────────────────────────────────────────────────────────
 
 class FolderInfoSettingV3 : public SettingV3 {
 public:
