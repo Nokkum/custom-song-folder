@@ -1,3 +1,12 @@
+# v1.1.2
+* Song and SFX files with uppercase extensions (e.g. `.MP3`, `.OGG`) are now recognised correctly
+* Destination folders are automatically created during file transfer if they do not already exist, instead of showing an error
+* Grouped mod settings into a shared config struct with getter functions for safer access
+* File helper utilities moved to a dedicated `file_utils.hpp` header
+* Setting types split into individual files for easier maintenance
+* Added log messages on mod load, setting changes, and transfer start/complete
+* CI pipeline now triggers correctly on pushes to `main`
+
 # v1.1.1
 * Fixed mod settings being read before the mod was fully loaded, which could cause the wrong folder to be used on startup
 * Fixed the separate SFX folder being ignored in the downloaded songs list

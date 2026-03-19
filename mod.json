@@ -10,7 +10,7 @@
       "source": "https://github.com/SawBlade21/custom-song-folder"
    }, 
    "name": "Custom Song Folder",
-   "version": "v1.1.1",
+   "version": "v1.1.2",
    "developer": "Sawblade",
    "description": "Save songs and SFX to a custom directory",
    "early-load": true,
@@ -64,6 +64,8 @@
    }, 
    "tags": [
       "enhancement",
+      "music",
       "utility",
       "customization"
    ]
+}
